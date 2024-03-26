@@ -1,3 +1,2 @@
 folium
 flask
-sqlite3
