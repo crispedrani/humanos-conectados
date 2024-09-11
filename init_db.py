@@ -13,7 +13,7 @@ with open('conectados.txt') as conectadosf:
     conectados = conectadosf.readlines()
 
 for conectado in conectados:
-    cur.execute("INSERT INTO coordenadas (coord_coord) VALUES(?)",(((conectado.removesuffix("\n")),)))
+    cur.execute("INSERT INTO coordenadas (coord_coord) VALUES(?)", (((conectado.removesuffix("\n")), )))
 
 connection.commit()
-connection.close
+connection.close()

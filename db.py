@@ -29,6 +29,6 @@ def init_db():
 def init_db_command():
     """ limpia los datos existentes y crea nuevas talbas"""
     init_db()
-    click.echo('BAse de datos inicializada')
+    click.echo('Base de datos inicializada')
 
     
