@@ -18,7 +18,7 @@ def mapa():
 
     # obtiene las coordenadas de la base de datos
     # URL api_db
-    db_api_all = 'http://localhost:5002/api/v1/resources/coordenadas/all'
+    db_api_all = 'http://localhost:5002/api/v1/resources/coordenadas/coords'
     try:
         # get a todas las coordenadas en la base de datos
         response = requests.get(db_api_all)
